@@ -2,6 +2,7 @@
 name = "rusty_boy"
 version = "0.1.0"
 edition = "2024"
+default-run = "rusty_boy"
 
 [dependencies]
 
@@ -9,3 +10,28 @@ edition = "2024"
 [[bin]]
 name = "clone-resources"
 path = "scripts/clone_resources.rs"
+
+# Binary for launching pandocs book
+[[bin]]
+name = "launch-pandocs"
+path = "scripts/launch_pandocs.rs"
+
+# Binary for launching DMG-01 book
+[[bin]]
+name = "launch-dmg01"
+path = "scripts/launch_dmg01.rs"
+
+# Binary for launching Rust documentation with bookmark
+[[bin]]
+name = "rust-docs"
+path = "scripts/rust_docs.rs"
+
+# Binary for launching Game Boy Complete Technical Reference
+[[bin]]
+name = "gb-ctr-book"
+path = "scripts/gb_ctr_book.rs"
+
+# Binary for launching all development tools
+[[bin]]
+name = "launch-all-docs"
+path = "scripts/launch_all_docs.rs"
